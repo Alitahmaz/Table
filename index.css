@@ -32,12 +32,12 @@ body{
     z-index: -1;
 }
 
-#circle_right{
+.circle2{
     right:250px;
     top:30px;
 }
 
-#circle_left{
+.circle1{
     left:250px;
     bottom:10px;
 }
@@ -57,7 +57,7 @@ body{
     text-align: center;
 }
 
-span{
+p{
     position: relative;
     top:5px;
     font-family: 'Noto Sans', sans-serif;
@@ -88,20 +88,21 @@ span{
     flex-wrap: wrap;
 }
 
-.main_img{
+.img1{
     border-radius: 20px;
     width: 360px;
     height: 150px;
     object-fit: cover;
 }
 
-.other_img{
+.img2{
     border-radius: 20px;
     width: 115px;
     height: 150px;
     object-fit: cover;
     margin-top: 7px;
     margin-right: 5px;
+    
 }
 
 .box_content{
